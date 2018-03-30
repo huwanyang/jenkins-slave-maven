@@ -4,6 +4,8 @@ MAINTAINER huwanyang168@163.com
 
 LABEL Description="This is a extend image base from jenkins/jnlp-slave which install maven in it."
 
+USER root
+
 RUN pwd
 
 # install maven
